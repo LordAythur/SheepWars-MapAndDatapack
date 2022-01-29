@@ -1,0 +1,17 @@
+{
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:green_wool",
+            "conditions": [{
+                "condition": "killed_by_player"
+            }],
+            "functions": [{
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Mouton Glouton\",\"color\":\"dark_green\",\"bold\":true}',Lore:['{\"text\":\"Grignote les blocs à \"}','{\"text\":\"la position où il atterrit.  \"}']}}"
+            }]
+        }]
+    }]
+}

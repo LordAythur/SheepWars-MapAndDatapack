@@ -1,0 +1,17 @@
+{
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:purple_wool",
+            "conditions": [{
+                "condition": "killed_by_player"
+            }],
+            "functions": [{
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Mouton Distorsion\",\"color\":\"dark_purple\",\"bold\":true}',Lore:['{\"text\":\"Attire les joueurs et \"}','{\"text\":\"les blocs vers lui.\"}']}}"
+            }]
+        }]
+    }]
+}

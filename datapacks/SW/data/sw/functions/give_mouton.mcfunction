@@ -1,0 +1,17 @@
+scoreboard players set max RANDOM 14
+execute as @s run function sw:rand
+
+execute as @s if entity @s[scores={RANDOM=0}] run give @s red_wool{display:{Name:'{"text":"Mouton Instantané","color":"dark_red","bold":true}',Lore:['{"text":"Explose au contact du sol."}']}} 1
+execute as @s if entity @s[scores={RANDOM=1}] run give @s orange_wool{display:{Name:'{"text":"Mouton Incendiaire","color":"gold","bold":true}',Lore:['{"text":"Provoque une explosion énorme,"}','{"text":"rependant du feu aux alentours. "}']}} 1
+execute as @s if entity @s[scores={RANDOM=2}] run give @s green_wool{display:{Name:'{"text":"Mouton Glouton","color":"dark_green","bold":true}',Lore:['{"text":"Grignote les blocs à "}','{"text":"la position où il atterrit.  "}']}} 1
+execute as @s if entity @s[scores={RANDOM=3}] run give @s black_wool{display:{Name:'{"text":"Mouton Aveuglant","color":"#363636","bold": true}',Lore:['{"text":"Aveugle les ennemis proches."}']}} 1
+execute as @s if entity @s[scores={RANDOM=4}] run give @s lime_wool{display:{Name:'{"text":"Mouton Chercheur","color":"green","bold":true}',Lore:['{"text":"Suit les joueurs ennemis "}','{"text":"et explose à leur contact."}']}} 1
+execute as @s if entity @s[scores={RANDOM=5}] run give @s light_blue_wool{display:{Name:'{"text":"Mouton Glacé","color":"blue","bold":true}',Lore:['{"text":"Crée de la neige et "}','{"text":"ralentit les joueurs ennemis."}']}} 1
+execute as @s if entity @s[scores={RANDOM=6}] run give @s gray_wool{display:{Name:'{"text":"Mouton à Fragmentation","color":"dark_gray","bold":true}',Lore:['{"text":"Explose, puis libère de "}','{"text":"plus petits moutons "}','{"text":"qui explosent à leur tour."}']}} 1
+execute as @s if entity @s[scores={RANDOM=7}] run give @s pink_wool{display:{Name:'{"text":"Mouton Soigneur","color":"light_purple","bold":true}',Lore:['{"text":"Soigne les joueurs alliés."}']}} 1
+execute as @s if entity @s[scores={RANDOM=8}] run give @s brown_wool{display:{Name:'{"text":"Mouton Tremblement de terre","color":"#572C01","bold":true}',Lore:['{"text":"Projette les joueurs ennemis "}','{"text":"dans les airs."}']}} 1
+execute as @s if entity @s[scores={RANDOM=9}] run give @s purple_wool{display:{Name:'{"text":"Mouton Distorsion","color":"dark_purple","bold":true}',Lore:['{"text":"Attire les joueurs et "}','{"text":"les blocs vers lui."}']}} 1
+execute as @s if entity @s[scores={RANDOM=10}] run give @s yellow_wool{display:{Name:'{"text":"Mouton Foudroyant","color":"yellow","bold":true}',Lore:['{"text":"Invoque la foudre à "}','{"text":"plusieurs reprises, provoquant des "}','{"text":"explosions."}']}} 1
+execute as @s if entity @s[scores={RANDOM=11}] run give @s light_gray_wool{display:{Name:'{"text":"Mouton Perceuse","color":"gray","bold":true}',Lore:['{"text":"Fonce en ligne droite, "}','{"text":"en dévorant les blocs "}','{"text":"sur son passage."}']}} 1
+execute as @s if entity @s[scores={RANDOM=12}] run give @s magenta_wool{display:{Name:'{"text":"Mouton Infectueux","color":"#FF00DD","bold":true}',Lore:['{"text":"Infecte les blocs aux alentours, "}','{"text":"les transformant en bloc "}','{"text":"d\'Améthyste."}']}} 1
+execute as @s if entity @s[scores={RANDOM=13}] run give @s cyan_wool{display:{Name:'{"text":"Mouton Espion","color":"aqua","bold":true}',Lore:['{"text":"Permet de détecter les "}','{"text":"joueurs ennemis et augmente "}','{"text":"la puissance des flèches."}']}} 1

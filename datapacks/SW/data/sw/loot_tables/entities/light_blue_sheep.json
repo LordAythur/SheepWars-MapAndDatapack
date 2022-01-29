@@ -1,0 +1,17 @@
+{
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:light_blue_wool",
+            "conditions": [{
+                "condition": "killed_by_player"
+            }],
+            "functions": [{
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Mouton Glacé\",\"color\":\"blue\",\"bold\":true}',Lore:['{\"text\":\"Créer de la neige et \"}','{\"text\":\"ralenti les joueurs ennemis.\"}']}}"
+            }]
+        }]
+    }]
+}

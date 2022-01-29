@@ -1,0 +1,17 @@
+{
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "item",
+            "weight": 1,
+            "name": "air",
+            "conditions": [{
+                "condition": "killed_by_player"
+            }],
+            "functions": [{
+                "function": "set_nbt",
+                "tag": "{Tags:['orange']}"
+            }]
+        }]
+    }]
+}

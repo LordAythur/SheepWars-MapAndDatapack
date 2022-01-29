@@ -1,0 +1,17 @@
+{
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:orange_wool",
+            "conditions": [{
+                "condition": "killed_by_player"
+            }],
+            "functions": [{
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Mouton Incendiaire\",\"color\":\"gold\",\"bold\":true}',Lore:['{\"text\":\"Provoque une explosion énorme,\"}','{\"text\":\"rependant du feu aux alentours. \"}']}}"
+            }]
+        }]
+    }]
+}

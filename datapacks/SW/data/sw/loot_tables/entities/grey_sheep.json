@@ -1,0 +1,17 @@
+{
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:gray_wool",
+            "conditions": [{
+                "condition": "killed_by_player"
+            }],
+            "functions": [{
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Mouton à Fragmentation\",\"color\":\"dark_gray\",\"bold\":true}',Lore:['{\"text\":\"Explose, puis libère de \"}','{\"text\":\"plus petits moutons \"}','{\"text\":\"qui explosent à leur tour.\"}']}}"
+            }]
+        }]
+    }]
+}

@@ -1,0 +1,17 @@
+{
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:lime_wool",
+            "conditions": [{
+                "condition": "killed_by_player"
+            }],
+            "functions": [{
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Mouton Chercheur\",\"color\":\"green\",\"bold\":true}',Lore:['{\"text\":\"Suit les joueurs ennemis \"}','{\"text\":\"et explose à leur contact.\"}']}}"
+            }]
+        }]
+    }]
+}

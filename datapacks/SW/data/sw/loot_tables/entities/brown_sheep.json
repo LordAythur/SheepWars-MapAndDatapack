@@ -1,0 +1,17 @@
+{
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:brown_wool",
+            "conditions": [{
+                "condition": "killed_by_player"
+            }],
+            "functions": [{
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Mouton Tremblement de terre\",\"color\":\"#572C01\",\"bold\":true}',Lore:['{\"text\":\"Projette les joueurs ennemis \"}','{\"text\":\"dans les airs.\"}']}}"
+            }]
+        }]
+    }]
+}
